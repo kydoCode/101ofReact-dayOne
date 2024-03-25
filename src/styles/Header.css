@@ -1,0 +1,9 @@
+img {
+    width: 150px;
+    max-width: 100%;
+}
+
+header {
+    display: flex;
+    grid-template-columns: repeat(2, 20% 80%);
+}
