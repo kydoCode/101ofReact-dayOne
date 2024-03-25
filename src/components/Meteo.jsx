@@ -8,10 +8,9 @@ function Meteo(){
             try {
                 const req = await fetch("https://www.prevision-meteo.ch/services/json/brignoles")
                 const response = await req.json()
-            if(response.ok){
-                setDatas([res])
+                setDatas([response])
                 console.log(datas)
-            }
+            
             } catch(err) {
                 console.error(err)
             }
